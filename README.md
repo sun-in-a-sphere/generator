@@ -50,7 +50,7 @@ On multi processor systems it is recommended to make sure you have imagemagick i
 
 1. Open a shell and type:
 
-   ``wget XXX/ sun-in-a-sphere.debsun-in-a-sphere.deb.conf ``
+   ` get the package https://github.com/sun-in-a-sphere/generator/releases/tag/1.0 ``
 
    ``apt install ./ sun-in-a-sphere.deb``
 
