@@ -32,11 +32,13 @@ Prequesites:
 
 - Mplayer (tested on version 4.2.1)
 
+- GNU Parallel
+
 Linux comes preinstalled with these. On multi processor systems it is recommended to make sure you have imagemagick installed with support for OpenMP and OpenCL. Check with `convert -v | grep OpenMP`
 
 On MacOS to install the dependencies install homebrew https://brew.sh/, open a terminal and type
 
-`brew install imagemagick  --with-openmp –with-opencl mplayer`
+`brew install imagemagick  --with-openmp –with-opencl mplayer parallel`
 
 
 
@@ -76,7 +78,7 @@ On multi processor systems it is recommended to make sure you have imagemagick i
 
 1. Get the Package:
 
-   `	XXXXXXXXXXXXXXXX`
+   `	https://github.com/sun-in-a-sphere/generator/releases/tag/1.0`
 
    ​
 
