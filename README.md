@@ -50,7 +50,7 @@ On multi processor systems it is recommended to make sure you have imagemagick i
 
 1. Open a shell and type:
 
-   ` get the package https://github.com/sun-in-a-sphere/generator/releases/tag/1.0.1 `
+   get the package https://github.com/sun-in-a-sphere/generator/releases/tag/1.0.1
 
    ``apt install ./ sun-in-a-sphere.deb``
 
@@ -76,9 +76,7 @@ On multi processor systems it is recommended to make sure you have imagemagick i
 
 #### MacOS
 
-1. Get the Package:
-
-   ` https://github.com/sun-in-a-sphere/generator/releases/tag/1.0 `
+1. Get the Package:  https://github.com/sun-in-a-sphere/generator/releases/tag/1.0 
 
    ​
 
