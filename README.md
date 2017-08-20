@@ -74,6 +74,10 @@ On multi processor systems it is recommended to make sure you have imagemagick i
 
 
 
+
+  
+    
+    
 #### MacOS
 
 1. Get the Package at https://github.com/sun-in-a-sphere/generator/releases/tag/1.0 
