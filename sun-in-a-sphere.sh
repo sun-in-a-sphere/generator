@@ -68,7 +68,7 @@ config() {
                 echo -n timeframe_start=2012-09-01
                 ;;
             timeframe_end)
-                echo -n timeframe_end=2012-11-01
+                echo -n timeframe_end=2012-10-24
                 ;;
             wavelength)
                 echo -n wavelength=304
@@ -80,10 +80,10 @@ config() {
                 echo -n offset=5
                 ;;
             test_mode)
-                echo -n test_mode=true
+                echo -n test_mode=false
                 ;;
             parallel)
-                echo -n parallel=false
+                echo -n parallel=true
                 ;;
             rotate)
                 echo -n rotate=true
