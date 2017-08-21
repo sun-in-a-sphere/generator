@@ -83,7 +83,7 @@ config() {
                 echo -n test_mode=false
                 ;;
             parallel)
-                echo -n parallel=true
+                echo -n parallel=false
                 ;;
             rotate)
                 echo -n rotate=true
@@ -113,10 +113,6 @@ config() {
 }
 
 init_config() {
-    # #read config from argument if present
-    # if [ $# -eq 1 ]; then
-    #     conf=$1
-    # fi
 
     #get config values
     config_values="$(config movie_name)
