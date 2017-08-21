@@ -60,15 +60,11 @@ On multi processor systems it is recommended to make sure you have imagemagick i
 
    ​
 
-3. Run the script with:
-
-    `./sun-in-a-sphere.sh sun-in-a-sphere.conf`
-
-   ​
-
-   Or run with default configuration:
+3. Run the script with: (conf file needs to be in current folder)
 
     `./sun-in-a-sphere.sh`
+
+   ​
 
    This will take some time.
 
