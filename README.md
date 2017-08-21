@@ -66,8 +66,6 @@ On multi processor systems it is recommended to make sure you have imagemagick i
 
    ​
 
-   This will take some time.
-
 
 
 
