@@ -264,7 +264,7 @@ image_processing() {
             if [ $parallel = true ]; then
                 sem -j $cores --id $$ ip_job $ip_file $rotation_angle $contrast
             else
-                ip_job $ip_file $rotation_angle
+                ip_job $ip_file $rotation_angle $contrast
             fi
 
             if [ "$rotate" = true ]; then
