@@ -74,7 +74,7 @@ config() {
                 echo -n wavelength=304
                 ;;
             contrast)
-                echo -n contrast=60%
+                echo -n contrast=0%
                 ;;
             offset)
                 echo -n offset=5
@@ -83,7 +83,7 @@ config() {
                 echo -n test_mode=false
                 ;;
             parallel)
-                echo -n parallel=false
+                echo -n parallel=true
                 ;;
             rotate)
                 echo -n rotate=true
