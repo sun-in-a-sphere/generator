@@ -52,7 +52,7 @@ On multi processor systems it is recommended to make sure you have imagemagick i
 
 2. Open a shell and type:
 
-   ``apt install ./ sun-in-a-sphere.deb``
+   ``apt install ./sun-in-a-sphere.deb``
 
 
 
