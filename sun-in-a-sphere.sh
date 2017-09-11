@@ -316,6 +316,9 @@ process_image() {
         
             #execute image processing command
             eval $"$cmd"
+        else 
+            #delete
+            rm "./$1"
         fi 
 } 
 
@@ -352,7 +355,9 @@ run() {
             wget -q $test_image_path$test_image
         fi
 
-        process_image $test_image        
+        echo "test tes :"$contrast
+
+        process_image $test_image 0 $contrast       
     fi 
 
     clean_up "$@"
