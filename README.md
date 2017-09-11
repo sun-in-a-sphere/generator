@@ -38,7 +38,7 @@ Linux comes preinstalled with these. On multi processor systems it is recommende
 
 On MacOS to install the dependencies install homebrew https://brew.sh/, open a terminal and type
 
-`brew install imagemagick  --with-openmp --with-opencl mplayer parallel`
+`brew install gcc imagemagick  --with-openmp --with-opencl mplayer parallel`
 
 
 
